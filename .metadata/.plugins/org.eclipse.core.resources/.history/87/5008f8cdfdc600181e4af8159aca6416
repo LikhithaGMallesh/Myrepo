@@ -1,0 +1,9 @@
+package com.capgemini.insurance;
+
+public class Current implements Insurance{
+	
+	public void method1()
+	
+	
+
+}

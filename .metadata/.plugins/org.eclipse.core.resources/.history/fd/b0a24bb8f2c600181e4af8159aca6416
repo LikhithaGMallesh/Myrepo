@@ -1,0 +1,27 @@
+package com.capgemini.cust;
+
+import com.capgemini.bank.BankAccount;
+
+public class Customer {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		 BankAccount acc1=new BankAccount();
+		 acc1.withdraw(5000);
+
+		  BankAccount acc2=new BankAccount();
+		  BankAccount acc3=acc1;
+		 
+		 acc2.deposit(2000);
+		 
+		 System.out.println("Bank Account 1"+acc1);
+		 System.err.println("Bank Account 2"+acc2);
+		 System.out.println("Bank Account 3"+acc3);
+
+		 
+	 }
+		
+
+}

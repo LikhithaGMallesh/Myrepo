@@ -1,0 +1,227 @@
+2018-10-03 10:25:53,154 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2018-10-03 10:25:53,550 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2018-10-03 10:25:53,943 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2018-10-03 10:25:54,224 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2018-10-03 10:26:34,518 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\likhgm\Desktop\R and D\bank-application\pom.xml
+2018-10-03 10:26:40,373 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.bank:bank-application:0.0.1-SNAPSHOT @ C:\Users\likhgm\Desktop\R and D\bank-application\pom.xml.
+2018-10-03 10:26:42,303 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bank-application/src/main/java
+2018-10-03 10:26:42,311 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /bank-application/src/test/java
+2018-10-03 10:26:42,917 [Worker-17: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2018-10-03 10:26:44,013 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2018-10-03 10:26:44,823 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2018-10-03 10:26:45,122 [Worker-0: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2018-10-03 10:26:48,612 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 10:26:48,612 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 10:26:48,614 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 10:26:48,614 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 10:26:49,420 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2018-10-03 10:26:49,704 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 10:26:49,704 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 10:26:49,705 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 10:26:49,705 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 10:31:24,649 [Worker-23: Launching Executing install in C__Users_likhgm_Desktop_R and D_bank-application] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\likhgm\Desktop\R and D\bank-application
+2018-10-03 10:31:24,650 [Worker-23: Launching Executing install in C__Users_likhgm_Desktop_R and D_bank-application] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-03 10:31:40,133 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 10:31:40,134 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 10:31:40,136 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 10:31:40,136 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 10:44:35,213 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 10:44:35,213 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 10:44:35,216 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 10:44:35,217 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 10:44:37,312 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 10:44:37,312 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 10:44:37,313 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 10:44:37,314 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:02:24,765 [Worker-44: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.capgemini.bank:bank-application:0.0.1-SNAPSHOT @ C:\Users\likhgm\Desktop\R and D\bank-application\pom.xml.
+2018-10-03 12:02:27,032 [Worker-44: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1.pom
+2018-10-03 12:02:27,451 [Worker-44: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1.pom
+2018-10-03 12:02:27,850 [Worker-44: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1.jar
+2018-10-03 12:02:30,226 [Worker-44: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1.jar
+2018-10-03 12:02:31,530 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:02:31,530 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:02:31,531 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:02:31,531 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:02:33,390 [Worker-48: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1-sources.jar
+2018-10-03 12:02:33,509 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:02:33,510 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:02:33,511 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:02:33,511 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:02:36,788 [Worker-48: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1-sources.jar
+2018-10-03 12:02:36,951 [Worker-48: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.8.1
+2018-10-03 12:02:37,157 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:02:37,158 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:02:37,160 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:02:37,161 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:02:40,585 [Worker-44: Launching Executing install in C__Users_likhgm_Desktop_R and D_bank-application] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\likhgm\Desktop\R and D\bank-application
+2018-10-03 12:02:40,585 [Worker-44: Launching Executing install in C__Users_likhgm_Desktop_R and D_bank-application] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-03 12:02:46,077 [Worker-50: Launching Executing install in C__Users_likhgm_Desktop_R and D_bank-application] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\likhgm\Desktop\R and D\bank-application
+2018-10-03 12:02:46,078 [Worker-50: Launching Executing install in C__Users_likhgm_Desktop_R and D_bank-application] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-03 12:02:46,219 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:02:46,219 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:02:46,220 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:02:46,220 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:02:57,657 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:02:57,658 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:02:57,659 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:02:57,660 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:03:53,679 [Worker-49: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:03:53,680 [Worker-49: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:03:53,682 [Worker-49: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:03:53,683 [Worker-49: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:06:26,467 [Worker-55: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:06:26,468 [Worker-55: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:06:26,472 [Worker-55: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:06:26,472 [Worker-55: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:06:42,791 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:06:42,791 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:06:42,794 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:06:42,794 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:07:57,379 [Worker-56: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:07:57,380 [Worker-56: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:07:57,384 [Worker-56: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:07:57,384 [Worker-56: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:08:45,656 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:08:45,657 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:08:45,658 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:08:45,658 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:26:32,233 [Worker-63: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:26:32,234 [Worker-63: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:26:32,235 [Worker-63: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:26:32,235 [Worker-63: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:32:25,639 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:32:25,640 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:32:25,640 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:32:25,640 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 12:32:49,952 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:32:49,953 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 12:32:49,953 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:32:49,953 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 13:27:29,939 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 13:27:29,939 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 13:27:29,940 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 13:27:29,940 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 13:27:47,673 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 13:27:47,673 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 13:27:47,674 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 13:27:47,674 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 13:31:39,049 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 13:31:39,049 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 13:31:39,050 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 13:31:39,050 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 13:32:46,669 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 13:32:46,669 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 13:32:46,670 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 13:32:46,670 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 13:50:25,273 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 13:50:25,273 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 13:50:25,274 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 13:50:25,274 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 14:47:20,550 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 14:47:20,551 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 14:47:20,552 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 14:47:20,552 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 14:47:38,838 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 14:47:38,839 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 14:47:38,840 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 14:47:38,841 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 14:48:18,720 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 14:48:18,721 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 14:48:18,721 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 14:48:18,722 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 15:24:10,070 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 15:24:10,070 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 15:24:10,070 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 15:24:10,071 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 15:27:21,407 [Worker-98: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 15:27:21,408 [Worker-98: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 15:27:21,408 [Worker-98: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 15:27:21,409 [Worker-98: Launching BankAccount] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:34:26,608 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:34:26,608 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:34:26,609 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:34:26,634 [Worker-107: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:34:58,038 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:34:58,039 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:34:58,042 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:34:58,042 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:35:11,370 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:35:11,370 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:35:11,371 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:35:11,371 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:35:22,441 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:35:22,441 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:35:22,444 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:35:22,444 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:42:42,597 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:42:42,598 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:42:42,598 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:42:42,599 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:46:42,415 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:46:42,416 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:46:42,418 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:46:42,418 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:47:10,745 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:47:10,745 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:47:10,746 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:47:10,746 [Worker-120: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:51:35,017 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:51:35,017 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:51:35,018 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:51:35,019 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:51:52,931 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:51:52,932 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:51:52,932 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:51:52,932 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:52:28,621 [Worker-119: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:52:28,622 [Worker-119: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:52:28,622 [Worker-119: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:52:28,622 [Worker-119: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:55:11,368 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:55:11,369 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:55:11,370 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:55:11,370 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:55:30,579 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:55:30,579 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:55:30,581 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:55:30,581 [Worker-117: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 16:55:42,322 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:55:42,323 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 16:55:42,323 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 16:55:42,324 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 17:02:25,112 [Worker-119: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:02:25,112 [Worker-119: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 17:02:25,113 [Worker-119: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:02:25,113 [Worker-119: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 17:10:09,021 [Worker-125: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:10:09,021 [Worker-125: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 17:10:09,022 [Worker-125: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:10:09,022 [Worker-125: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 17:24:47,403 [Worker-140: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:24:47,404 [Worker-140: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 17:24:47,404 [Worker-140: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:24:47,405 [Worker-140: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 17:33:12,197 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:33:12,197 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 17:33:12,198 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:33:12,198 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 17:33:43,581 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:33:43,581 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 17:33:43,583 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:33:43,583 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 17:41:31,039 [Worker-153: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:41:31,040 [Worker-153: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 17:41:31,040 [Worker-153: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:41:31,040 [Worker-153: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 17:41:44,640 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:41:44,640 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 17:41:44,650 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:41:44,650 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 17:43:00,787 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:43:00,787 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 17:43:00,793 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:43:00,794 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources
+2018-10-03 17:43:06,114 [Worker-144: Launching Customer] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:43:06,114 [Worker-144: Launching Customer] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\main\resources
+2018-10-03 17:43:06,114 [Worker-144: Launching Customer] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 17:43:06,115 [Worker-144: Launching Customer] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\likhgm\Desktop\R and D\bank-application\src\test\resources

@@ -1,0 +1,11 @@
+package com.capgemini.bank;
+
+public interface Insurance {
+	
+	
+	public void withdraw(double amount);
+	public void deposite(double amount);
+	
+	
+
+}

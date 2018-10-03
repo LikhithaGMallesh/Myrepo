@@ -1,0 +1,47 @@
+package com.capgemini.cust;
+
+public class bankAccount {
+	
+	int accountNo;
+	String accountHolderName;
+	double accountBalance;
+	
+	public bankAccount() {
+		
+	}
+	
+
+	public bankAccount(int accountNo, String accountHolderName, double accountBalance) {
+		super();
+		this.accountNo = accountNo;
+		this.accountHolderName = accountHolderName;
+		this.accountBalance = accountBalance;
+	}
+
+	
+	public int getAccountNo() {
+		return accountNo;
+	}
+	
+
+	public String getAccountHolderName() {
+		return accountHolderName;
+	}
+	public void setAccountHolderName(String accountHolderName) {
+		this.accountHolderName = accountHolderName;
+	}
+	public double getAccountBalance() {
+		return accountBalance;
+	}
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "bankAccount [accountNo=" + accountNo + ", accountHolderName=" + accountHolderName + ", accountBalance="
+				+ accountBalance + "]";
+	}
+	
+	
+}

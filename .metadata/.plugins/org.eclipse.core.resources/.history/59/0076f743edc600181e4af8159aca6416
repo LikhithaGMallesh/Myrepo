@@ -1,0 +1,11 @@
+package com.capgemini.cust;
+
+public class SavingAccount extends bankAccount {
+
+	  public SavingAccount(int accountNo, String accountHolderName) {
+        
+     
+    }
+}
+
+

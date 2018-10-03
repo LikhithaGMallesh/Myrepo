@@ -1,0 +1,15 @@
+package com.capgemini.bank;
+
+public class Currentacc implements Insurance {
+
+	public void withdraw(double amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deposite(double amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

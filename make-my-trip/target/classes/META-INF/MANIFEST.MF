@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: make-my-trip
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: likhgm
+Implementation-Vendor-Id: com.makeMyTrip
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/make-my-trip
+Created-By: Maven Integration for Eclipse
+

@@ -2,7 +2,7 @@ package com.capgemini.cust;
 
 import com.capgemini.bank.BankAccount;
 import com.capgemini.bank.SavingAccVer2;
-import com.capgemini.bank.SavingAccount;
+import com.capgemini.bank.SavingsAccount;
 
 public class Customer {
 	
@@ -11,7 +11,7 @@ public class Customer {
 		
 
             SavingAccVer2 acc=null;
-            acc = new SavingAccVer2();
+            acc = new SavingAccVer2(null, 0);
             acc.withdraw(2000);
             acc.deposit(4000);
             acc.display();

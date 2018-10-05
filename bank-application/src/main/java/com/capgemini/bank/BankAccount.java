@@ -5,71 +5,54 @@ package com.capgemini.bank;
  * @author likhgm
  * @since  03-10-18
  */
-public class BankAccount {
-	
+
+public class BankAccount implements Comparable<BankAccount>{
 	int accountNo;
 	String accountHolderName;
 	double accountBalance;
-    static int autoAccountNoGen;
+	static int autoAccountNoGen;
 	
 	
-	public BankAccount() {
-		accountNo=++autoAccountNoGen;
-		accountHolderName="Unknown";
-		accountBalance=0;
+	/**
+	 * Init block --> this block is called even before constructors are called.
+	 */
+	{
+		accountNo = ++autoAccountNoGen;
 	}
-
-
-
+	public BankAccount() {
+		accountHolderName = "Unknown";
+		accountBalance = 0;
+	}
 	public BankAccount(String accountHolderName, double accountBalance) {
 		super();
-		accountNo=++autoAccountNoGen;
-         this.accountHolderName = accountHolderName;
+		this.accountHolderName = accountHolderName;
 		this.accountBalance = accountBalance;
 	}
-	
-	
-	public void withdraw(double amount) {
-		accountBalance-=amount;
+	public void setAccountHolderName(String accountHolderName) {
+		this.accountHolderName = accountHolderName;
 	}
-	
-	public void deposit(double amount) {
-		accountBalance-=amount;
-	}
-	
-	
-	
-	
- public int getAccountNo() {
+	public int getAccountNo() {
 		return accountNo;
 	}
-
-
-	public String getAccountHolderName() {
-		return accountHolderName;
-	}
-
-
-
 	public double getAccountBalance() {
 		return accountBalance;
 	}
-
-
-
-	public void setAccountBalance(double accountBalance) {
-		this.accountBalance = accountBalance;
+	public String getAccountHolderName() {
+		return accountHolderName;
 	}
-
-
-
-@Override
+	//public abstract void withdraw(double amount) throws BalanceInsufficientException;
+	public void deposit(double amount) {
+		accountBalance += amount;
+	}
+	@Override
 	public String toString() {
-		return "BankAccount [accountNo=" + accountNo + ", accountHolderName=" + accountHolderName + ", accountBalance="
-				+ accountBalance + "]";
+		return "BankAccount [accountNo=" + accountNo + ", accountHolderName="
+				+ accountHolderName + ", accountBalance=" + accountBalance
+				+ "]";
 	}
-
-
-
-	
+	@Override
+	public int compareTo(BankAccount acc) {
+		
+		return acc.getAccountNo()+getAccountNo();
+	}
 }

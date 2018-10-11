@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class FlightDetails {
 
 	
-ArrayList<Details>  flightdetails;
+/*ArrayList<Details>  flightdetails;
 
 
 
@@ -59,4 +59,7 @@ private void addAllDetailsOfFlight(Details details) {
 	// TODO Auto-generated method stub
 	
 }
-}
+}*/
+	
+	
+	

@@ -1,0 +1,130 @@
+package employeecollection;
+
+public class Employee_information {
+ String empID;
+ String Employee_name;
+ String Employee_designation;
+ boolean employee_salary;
+ double employee_comm;
+ 
+ Employee_information( String empID,String Employee_name, String Employee_designation, boolean employee_salary,double employee_comm){
+	 this.empID=empID;
+	 this.Employee_name=Employee_name;
+	 this.Employee_designation=Employee_designation;
+     this.employee_salary=employee_salary;
+     this. employee_comm= employee_comm;
+}
+
+public String getEmpID() {
+	return empID;
+}
+
+public void setEmpID(String empID) {
+	this.empID = empID;
+}
+
+public String getEmployee_name() {
+	return Employee_name;
+}
+
+public void setEmployee_name(String employee_name) {
+	Employee_name = employee_name;
+}
+
+public String getEmployee_designation() {
+	return Employee_designation;
+}
+
+public void setEmployee_designation(String employee_designation) {
+	Employee_designation = employee_designation;
+}
+
+public boolean isEmployee_salary() {
+	return employee_salary;
+}
+
+public void setEmployee_salary(boolean employee_salary) {
+	this.employee_salary = employee_salary;
+}
+
+public double getEmployee_comm() {
+	return employee_comm;
+}
+
+public void setEmployee_comm(double employee_comm) {
+	this.employee_comm = employee_comm;
+}
+ 
+}
+package employeecollection;
+
+public class MMASavingAccount{
+	int accountID;
+	 String accountholder_name;
+	double account_balance;
+	boolean isSalaryAccount;
+	
+	MMASavingAccount(int accountID,String accountholder_name,double account_balance,boolean isSalaryAccount){
+      this.accountID=accountID;
+      this.accountholder_name=accountholder_name;
+        this. account_balance= account_balance;
+        this.isSalaryAccount=isSalaryAccount;
+	}
+
+	public int getAccountID() {
+		return accountID;
+	}
+
+	public void setAccountID(int accountID) {
+		this.accountID = accountID;
+	}
+
+	public String getAccountholder_name() {
+		return accountholder_name;
+	}
+
+	public void setAccountholder_name(String accountholder_name) {
+		this.accountholder_name = accountholder_name;
+	}
+
+	public double getAccount_balance() {
+		return account_balance;
+	}
+
+	public void setAccount_balance(double account_balance) {
+		this.account_balance = account_balance;
+	}
+
+	public boolean isSalaryAccount() {
+		return isSalaryAccount;
+	}
+
+	public void setSalaryAccount(boolean isSalaryAccount) {
+		this.isSalaryAccount = isSalaryAccount;
+	}
+}
+package employeecollection;
+
+import java.util.Map;
+
+public class Employee {
+
+	public static void main(String[] args) {
+		List<Employee_information>l1=new ArrayList<>();
+		List<MMASavingAccount>l2=new ArrayList<>();
+		
+		Map<Employee_information,MMASavingAccount> m=new HashMap();
+		m.put(new Employee_information("123","adc","analyst",10000,true), new MMASavingAccount(23,"manju",20000,false));
+		m.put(new Employee_information("231","anu","research",70000,true), new MMASavingAccount(284,"anju",30000,true));
+		m.put(new Employee_information("126","manu","analyst",50000,false), new MMASavingAccount(231,"raju",50000,false));
+		
+		m.put(new Employee_information("128","adcd","analyst4",80000,true), new MMASavingAccount(23,"xyz",20000,false));
+		for(Map<K, V>.Entry m1:m entrySet())
+			{
+			System.out.print(m1.getKey());
+			System.out.print(" "+m1.getValue());
+			}
+		
+	}
+
+	}

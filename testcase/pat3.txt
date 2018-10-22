@@ -1,0 +1,49 @@
+package progpatt;
+
+public class pattern {
+	
+	   	
+	public static int main(int n)
+		{ 
+			int count=0;
+	        int i,j,l,k;
+	        for(i=1;i<=n;i++)
+	        {
+	            for(j=1;j<=n-i;j++)
+	        { 
+	                System.out.print(" ");
+	            }
+	            for(k=1;k<=i;k++)
+	            {
+	                System.out.print(k);
+	                count++;
+	            }
+	            
+	              for(l=i-1;l>=1; l--)
+	            {
+	                System.out.print(l);
+	            }
+	            System.out.print("\n");
+	            
+	       
+	        }
+		
+	          return count;  
+	 }
+
+}
+package progpatt;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class patternTest {
+
+	@Test
+	void test() {
+		
+		assertEquals(15,pattern.main(5));
+	}
+
+}

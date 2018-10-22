@@ -1,0 +1,58 @@
+package activity6;
+import java.util.Scanner;
+
+public class characters{
+	String s;
+	private Scanner sc;
+	
+	public String Charstring() throws StringTooLongException,StringDoneException{
+		sc=new Scanner(System.in);
+		System.out.println("enter the string");
+				s=sc.next();
+				
+	if(s.length()>=20) {
+		throw new StringTooLongException();
+		}
+	if(s.length()>20 || s.equals("DONE"))
+	{
+		throw new StringDoneException();
+		}
+	
+	return s;
+}
+}package activity6;
+
+public class check {
+
+	public static void main(String[] args) {
+		characters s=new characters();
+	
+		try {
+			System.out.println(s.Charstring());
+		}
+		catch(StringTooLongException e){
+			e.printStackTrace();
+		}
+         catch(StringDoneException e) {
+        	 e.printStackTrace();
+         }
+	}
+
+}package activity6;
+
+@SuppressWarnings("serial")
+public class StringDoneException extends Exception {
+	 StringDoneException(){
+		 super("xyz");
+		 }
+	 }package activity6;
+
+@SuppressWarnings("serial")
+public class StringTooLongException extends Exception {
+	StringTooLongException(){
+		super("abs");
+	}
+
+}
+
+

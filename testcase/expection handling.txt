@@ -1,0 +1,91 @@
+package expect;
+import java.io.*;
+
+public class Taxcalculator{
+	String empName;
+		boolean isIndian;
+		double empSal;
+		double taxAmount;
+	
+		public double calculateTax(String empName,boolean isIndian,double empSal)throws CountryNotValidException,EmployeeNameInvalidException,TaxNotEligibleException{
+			
+	if(isIndian==false)
+	{
+		throw new CountryNotValidException();
+	}
+	
+if(empName.isEmpty()){
+	throw new EmployeeNameInvalidException();
+}
+	if((empSal > 100000) && (isIndian==true)){
+		taxAmount = (empSal*8)/100;
+	}
+
+	else if(((empSal > 500000) && (empSal<100000)) && (isIndian==true)){
+		taxAmount = (empSal *6)/100;
+	}
+
+
+	else if(((empSal > 300000) && (empSal<500000)) && (isIndian==true)){
+		taxAmount = (empSal *5)/100;
+	}
+
+	else if(((empSal > 300000) && (empSal<500000)) && (isIndian==true)){
+		taxAmount = (empSal *4)/100;
+	}
+	else
+	{
+		throw new  TaxNotEligibleException();
+	}
+	return taxAmount;
+	}
+}
+package expect;
+
+@SuppressWarnings("serial")
+public class CountryNotValidException extends Exception {
+
+	 CountryNotValidException (){
+		 super("The employee should be an Indian citizen for calculating tax");
+	 }
+}
+package expect;
+
+@SuppressWarnings("serial")
+public class EmployeeNameInvalidException extends Exception {
+	EmployeeNameInvalidException(){
+		super("The employee name cannot be empty");
+	}
+
+}
+package expect;
+
+@SuppressWarnings("serial")
+public class TaxNotEligibleException extends Exception {
+	
+	 TaxNotEligibleException(){
+		 super("The employee does not need to pay tax");
+	 }
+}
+package expect;
+
+public class calculatorSimulator {
+public static void main(String[] args) {
+	Taxcalculator c=new Taxcalculator();
+	
+	try {
+		System.out.println("Tax amount is "+c.calculateTax("liki",false,35000));
+	}
+	catch( CountryNotValidException e) {
+		e.printStackTrace();
+	}
+	catch(EmployeeNameInvalidException e) { 
+		e.printStackTrace();
+	}
+	catch( TaxNotEligibleException e) {
+		e.printStackTrace();
+	}
+}
+}
+
+

@@ -1,0 +1,38 @@
+package patter2;
+
+public class patt {
+
+   	
+	public static int main(int rows)
+	{ 
+		int n=0;
+	 
+	    for(int i=1; i<=rows; ++i){
+	        for(int j=1;j<=i;++j){
+	            
+	            System.out.print(j + " ");
+	           n++;
+	        }
+	       
+	        
+	        System.out.println( );
+	       
+	    }
+	    return n;
+}
+}
+
+package patter2;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class pattTest {
+
+	@Test
+	void test() {
+		assertEquals(15,patt.main(5));
+	}
+
+}

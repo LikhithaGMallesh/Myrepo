@@ -1,0 +1,32 @@
+package sod;
+
+public class digit {
+	
+	public static int  add(int n)
+	    	{
+	 	    int sum=0, m;
+	 	    while(n!=0)
+	 	    {
+	 	        m=n%10;
+	 	        sum=sum+m;
+	 	        n=n/10;
+	 	        
+	 	    }
+	 	    return sum;
+	    	}
+
+}
+package sod;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class digitTest {
+
+	@Test
+	void test() {
+		assertEquals(6,digit.add(123));
+	}
+
+}

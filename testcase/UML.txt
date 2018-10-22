@@ -1,0 +1,95 @@
+package company;
+
+public class Happy {
+public static void main(String args[])
+{
+	goods a=new goods();
+	Supplier b=new Supplier();
+	Retailer c=new Retailer();
+	customer d=new customer();
+}
+}
+
+
+package company;
+
+public class goods {
+	String goodsId;
+	String goodsName;
+	String goodsQuantity;
+	String goodsPrice;
+
+   
+	
+	  public void addGoods() { 
+   }
+	  public void removeGoods(){
+		
+	  }
+	  
+	  public void  orderGoods() {
+		  
+	  }
+	  public void updateGoods() {
+		  
+	  }}
+
+package company;
+
+public class customer {
+	public String customerId;
+	public String customerName;
+	public String customerAddress;
+	
+	public String updateCustomer;
+	public void addCustomer() {
+		
+	}
+	public void removeCustomer() {
+		
+	}
+	public void updateCustomer() {
+		
+	}
+}
+
+
+package company;
+
+public class Retailer {
+public String retailerName;
+public  String retailerAddress;
+public void veiwGoods() {
+	
+}
+public void viewCustomer() {
+	
+}
+public void viewSupplier() {
+	
+}
+}
+
+package company;
+
+public class Supplier {
+public String supplierId;
+public String supplierName;
+public String supplierAddress;
+public double quqntityOrder;
+public String orderId;
+public double amount;
+public void addSupplier() {
+	
+}
+public void removeSupplier() {
+	
+}
+public void updateSupplier() {
+	
+}
+}
+
+
+
+

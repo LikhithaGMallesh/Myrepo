@@ -1,0 +1,28 @@
+package prog3var;
+
+public class swap3 {
+	 public static String var1(int a,int b){
+        int c;
+         c=a;
+         a=b;
+         b=c;
+         return  +a +","+b;
+        
+       
+     }
+}
+
+package prog3var;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class swap3Test {
+
+	@Test
+	void test() {
+		assertEquals("3,4",swap3.var1(4,3));
+	}
+
+}

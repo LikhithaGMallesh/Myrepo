@@ -1,0 +1,32 @@
+package prg2a;
+
+public class swap {
+	
+
+	     public static String swap1(int a,int b) {
+	         
+	        
+	         a=a+b;
+	         b=a-b;
+	         a=a-b;
+	       return +a +","+b;
+	         
+	        
+	       
+	     }
+	}
+
+package prg2a;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class swapTest {
+
+	@Test
+	void test() {
+		assertEquals("1,2",swap.swap1(2,1));
+	}
+
+}

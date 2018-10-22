@@ -1,0 +1,33 @@
+package miss;
+
+public class missing{
+	
+	    static int missingNo(int n) 
+		{
+
+		 int a[] = {1,2,4,3,6,7,8};
+		    int i, total;
+		    total = (n+1)*(n+2)/2;
+		    for(i=0;i<n;i++) 
+		    total -= a[i];
+		    return total;
+		    
+		}
+
+		}
+
+package miss;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class missingTest {
+
+	@Test
+	void test() {
+		
+		 assertEquals(5,missing.missingNo(7));
+	}
+
+}

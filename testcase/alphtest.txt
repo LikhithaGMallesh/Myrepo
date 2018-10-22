@@ -1,0 +1,39 @@
+package pattern2;
+
+public class alph {
+	
+	   	
+		public static int abc()
+		{ 
+			int count=0;
+		   char last = 'E',alphabet = 'A';
+		    for(int i=1; i<=(last-'A'+1);i++){
+		        for(int j=1;j<=i;j++)
+	               {
+		            
+		            System.out.print(alphabet + " ");
+		            count ++;
+		        }
+	            ++alphabet;
+	          
+	                    System.out.println( );
+	          }
+	            
+	 return count;
+	
+}
+}
+package pattern2;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class alphTest {
+
+	@Test
+	void test() {
+		assertEquals(15,alph.abc());
+	}
+
+}

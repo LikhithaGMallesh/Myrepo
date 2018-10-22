@@ -1,0 +1,50 @@
+package exptest;
+
+public class Customer {
+	private String custNo;
+	private String custName;
+	private String category;
+ 
+	String Customer (String custNo,String custName,String category)throws InvalidInputException{
+		 this.custNo=custNo;
+		 this.custName=custName;
+		 this.category=category;
+	char m=custNo.charAt(0);
+
+
+if((m!='C') && (m!='c')) {
+	throw new InvalidInputException();
+}
+ if(custName.length()!=4) {
+	throw new InvalidInputException();
+}
+		
+if(category.equals("Platinum") && category.equals("Gold")&& category.equals("Platinum")){
+	throw new InvalidInputException();
+}
+return custNo+" "+custName+" "+category;
+}}
+package exptest;
+
+@SuppressWarnings("serial")
+public class InvalidInputException extends Exception {
+	 InvalidInputException(){
+		 super("invalid");
+	 }
+}
+package exptest;
+
+public class TestCustomer {
+
+	public static void main(String[] args) {
+		Customer t=new Customer();
+	
+		try {
+			System.out.println(t.Customer("c123","likh","Gold"));
+		}
+		catch( InvalidInputException e) {
+			e.printStackTrace();
+		}
+
+	}
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping SYSTEM "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN">
+
+-<hibernate-mapping>
+
+
+-<class table="EMP_Test" name="com.onkar.pojo.Employee">
+
+
+-<id name="empNo" column="EMPNO" type="int">
+
+<generator class="native"/>
+
+</id>
+
+<property name="empNm" column="ename"/>
+
+<property name="empSal" column="sal"/>
+
+</class>
+
+</hibernate-mapping>

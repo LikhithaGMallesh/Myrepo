@@ -1,0 +1,23 @@
+package prog;
+
+public class add {
+	public static int sum(int a,int b) {
+	return a+b;
+	}
+}
+
+
+package prog;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class addTest {
+
+	@Test
+	void test() {
+		assertEquals(3,add.sum(1,2));
+	}
+
+}

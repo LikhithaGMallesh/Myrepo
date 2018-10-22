@@ -1,0 +1,39 @@
+package mstudentmarks;
+
+public class marks {
+
+	
+		  public static int main()
+		  {
+		    int n=20,i;
+		    int count=0;
+		    int a[]={35,89,98,93,100,86,38,77,65,34,67,73,37,88,45,12,30,34,95,55};
+		    for(i=0;i<n;i++)
+		    {
+		      if(a[i]>=86)
+		       {
+		        System.out.println(a[i]);
+		      }
+		     
+		    }
+		    return count;
+		    
+		  }
+
+} 
+package mstudentmarks;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class marksTest {
+
+	@Test
+	void test() {
+		assertEquals(7,marks.main());
+	}
+
+}
+
+

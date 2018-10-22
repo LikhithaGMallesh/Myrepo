@@ -1,0 +1,66 @@
+package largest;
+
+public class arry {
+
+    static void pri(int arr[], int arr_size)
+    {
+        int i, first, second, third;
+   
+    
+        if (arr_size < 3)
+        {
+            System.out.print(" Invalid Input ");
+            return;
+        }
+       
+        third = first = second = Integer.MIN_VALUE;
+        for (i = 0; i < arr_size ; i ++)
+        {
+            
+            if (arr[i] > first)
+            {
+                third = second;
+                second = first;
+                first = arr[i];
+            }
+       
+           
+            
+            else if (arr[i] > second)
+            {
+                third = second;
+                second = arr[i];
+            }
+       
+            else if (arr[i] > third)
+                third = arr[i];
+        }
+       
+        System.out.println("Three largest elements are " +
+                       first + " " + second + " " + third);
+    }
+ 
+    
+    public static void main (String[] args)
+    {
+        int arr[] = {90,20,30,10,2,5};
+        int n = arr.length;
+        pri(arr, n);
+    }
+}
+
+package largest;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class arryTest {
+
+	@Test
+	void test() {
+		int res[]= {90,20,30,10,2,5};
+		assertEquals(res,arry.pri());
+	}
+
+}

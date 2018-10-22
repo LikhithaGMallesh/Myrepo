@@ -1,0 +1,61 @@
+package activity3;
+
+public class newday {
+	public static void main(String[] args) {
+		for(int i=0;i<7;i++) {
+			String date=args[i];
+			String day=date.substring(0,2);
+			String month=date.substring(3,5);
+			int d=Integer.parseInt(day);
+			int e=Integer.parseInt(month);
+			MyDate c=new Mydate();
+			try{
+				c.MyDate(day, e);
+				}
+			catch(InvalidDayException  e1) {
+				 e.printStackTrace();
+			}
+			catch(InvalidMonthException e1) {
+				 e.printStackTrace();
+			}
+		
+	}
+}
+}package activity3;
+
+public class MyDate {
+	int  day;
+	int month;
+	int year;
+	
+	public  void MyDate( int day,int month)throws InvalidDayException,InvalidMonthException{
+		if(day>31)
+		{
+	throw new InvalidDayException();
+		
+	}
+		else if(month>12)
+		{
+			throw new InvalidMonthException();	
+			}
+		else
+			System.out.println("VALID DATE");
+}
+}package activity3;
+
+@SuppressWarnings("serial")
+public class InvalidMonthException extends Exception {
+	InvalidMonthException()
+{
+		super("month valid");
+		}
+}
+package activity3;
+
+@SuppressWarnings("serial")
+public class InvalidDayException extends Exception {
+	InvalidDayException()
+{
+		super("invalid");
+		}
+}

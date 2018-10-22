@@ -1,0 +1,60 @@
+package activity4;
+
+public class factor {
+
+	public static void main(String[] args) {
+		Factorial n=new Factorial();
+		
+		try {
+			n.Factorial(1);
+		}
+   catch(InvalidInputException e) {
+	e.printStackTrace();
+}
+    catch(FactorialException e) {
+    	e.printStackTrace();
+}
+}
+}package activity4;
+
+public class Factorial {
+	int fact;
+	int num;
+	public double Factorial(int num) throws InvalidInputException,FactorialException{
+		
+		if(num<2) 
+		{
+			throw new InvalidInputException();
+		}
+      for(int i=2;i<=num;i++) {
+	            fact=fact*i;
+             if(num>Integer.MAX_VALUE) {
+            	 throw new FactorialException();            
+             }
+        	
+        }
+
+		return num;
+	}
+
+}package activity4;
+
+@SuppressWarnings("serial")
+public class FactorialException extends Exception {
+	FactorialException(){
+		super(" exception");
+	}
+}package activity4;
+
+@SuppressWarnings("serial")
+public class InvalidInputException extends Exception {
+	
+	 InvalidInputException(){
+		 super("invalid expection");
+		 
+	 }
+	 }
+
+
+
+	

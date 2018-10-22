@@ -1,0 +1,42 @@
+package pattern;
+
+public class pattstar{
+	
+  	public static int main()
+		{ 
+  		int count=0;
+		   int rows = 5;
+		    for(int i=1; i<=rows;i++){
+		        for(int j=1;j<=rows;j++)
+	               {
+		            
+		            System.out.print(" ");
+		            
+		        }
+	            
+		     count++;
+		        
+	                for(int j=1;j<=i;j++)
+	                {
+	                    System.out.println("*");}
+	            System.out.print("\n");
+		    }
+		    return count;
+		}
+  	
+	
+}
+package pattern;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class pattstarTest {
+
+	@Test
+	void test() {
+		assertEquals(15,pattstar.main());
+	}
+
+}
